@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — PTLS</title>
+    <meta name="description" content="Get in touch with the PTLS team.">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light site-nav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png" alt="PTLS"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="what-we-do.html">What We Do</a></li>
+                    <li class="nav-item"><a class="nav-link" href="how-it-works.html">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="btn-brand nav-cta" href="get-started.html">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <div class="crumbs"><a href="index.html">Home</a> / Contact Us</div>
+                <h1>Contact Us</h1>
+                <p>Questions about loads, partnerships or your account? We usually reply within one business day.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-4 reveal">
+                        <span class="eyebrow">Get in touch</span>
+                        <h2 class="section-title">We're here to help</h2>
+                        <p class="mb-4">Reach out by phone or email, or send us a message using the form.</p>
+                        <div class="contact-item">
+                            <div class="icon-badge"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:+18005550199">+1 (800) 555-0199</a><br>Mon to Fri, 7am to 7pm CT</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-badge"><i class="fa-regular fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:support@ptls.com">support@ptls.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-badge"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Office</h4>
+                                <p>103 Rosenson Avenue<br>Dallas, TX</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 offset-lg-1 reveal">
+                        <div class="form-card">
+                            <form class="needs-validation" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="c-name">Full name</label>
+                                        <input class="form-control" id="c-name" name="name" type="text" autocomplete="name" required>
+                                        <div class="invalid-feedback">Please enter your name.</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="c-email">Email</label>
+                                        <input class="form-control" id="c-email" name="email" type="email" autocomplete="email" required>
+                                        <div class="invalid-feedback">Please enter a valid email.</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="c-phone">Phone <span class="text-muted fw-normal">(optional)</span></label>
+                                        <input class="form-control" id="c-phone" name="phone" type="tel" autocomplete="tel">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="c-topic">I am a</label>
+                                        <select class="form-select" id="c-topic" name="topic" required>
+                                            <option value="" selected disabled>Choose one</option>
+                                            <option>Shipper</option>
+                                            <option>Trucking Company</option>
+                                            <option>Pilot Car Driver</option>
+                                            <option>Other</option>
+                                        </select>
+                                        <div class="invalid-feedback">Please choose an option.</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label" for="c-msg">Message</label>
+                                        <textarea class="form-control" id="c-msg" name="message" rows="5" required></textarea>
+                                        <div class="invalid-feedback">Please enter a message.</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn-brand w-100" type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="form-success" role="status">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <h3>Message sent!</h3>
+                                <p>Thanks for reaching out. Our team will get back to you shortly.</p>
+                                <a class="btn-outline-ink mt-2" href="index.html">Back to Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img class="logo" src="images/logo.png" alt="PTLS">
+                    <p>Connecting shippers, trucking companies and pilot car drivers on one platform.</p>
+                    <div class="socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1">
+                    <h5>Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Platform</h5>
+                    <ul class="footer-links">
+                        <li><a href="what-we-do.html">What We Do</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="get-started.html">Get Started</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Contact</h5>
+                    <ul class="footer-links">
+                        <li><a href="mailto:support@ptls.com"><i class="fa-regular fa-envelope me-2"></i>support@ptls.com</a></li>
+                        <li><a href="tel:+18005550199"><i class="fa-solid fa-phone me-2"></i>+1 (800) 555-0199</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; <span data-year>2020</span> PTLS. All rights reserved.</span>
+                <span><a href="privacy-policy.html">Privacy</a> &middot; <a href="terms-of-use.html">Terms of Use</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
